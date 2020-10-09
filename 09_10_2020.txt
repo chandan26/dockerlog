@@ -1,0 +1,224 @@
+    1  yum update 
+    2  pkill -9 2887
+    3  yum update 
+    4  pkill -9 2887
+    5  pkill -15 2887
+    6  yum update 
+    7  pkill -15 2887
+    8  pkill -9 2887
+    9  yum update 
+   10  pkill  PackageKit
+   11  yum update 
+   12  cat /var/run/yum.pid
+   13  ps -p 2887
+   14  kill -9 2887
+   15  systemctl disable packagekit --now
+   16  vi /etc/yum/pluginconf.d/refresh-packagekit.conf
+   17  cat /etc/yum/pluginconf.d/refresh-packagekit.conf
+   18  yum update 
+   19  yum install git
+   20  yum install -y yum-utils
+   21  curl -fsSL https://get.docker.com/ | sh
+   22   docker run hello
+   23   docker run hello-world
+   24  systemctl start docker
+   25  systemctl enable docker
+   26  systemctl start docker
+   27   docker run hello-world
+   28  docker search python
+   29  docker pull python
+   30  docker imaages
+   31  docker images
+   32  docker run python
+   33  docker run it python
+   34  docker run it python bash
+   35  docker run --help
+   36  docker start python
+   37  systemctl status docker
+   38  docker run python
+   39  docker run it  python bash
+   40  docker images
+   41  docker rmi python:latest 
+   42  docker rmi python
+   43  docker stop python
+   44  docker ps
+   45  docker search ubuntu
+   46  docker pull ubuntu
+   47  docker images
+   48  docker run ubuntu
+   49  docker run it ubuntu bash
+   50  docker run ubuntu
+   51  docker run it ubuntu bash
+   52  docker run it:latest ubuntu bash
+   53  docker run --name pycomp python:local
+   54  docker search centos
+   55  docker pull centos
+   56   docker images
+   57  docker run -it centos
+   58  docker run -it python
+   59  docker ps
+   60  docker stop 098e27bf9d8b
+   61  docker stop 165fee8d016b
+   62  docker ps
+   63  docker rmi ubuntu
+   64  docker rm $(docker ps --all -q)
+   65  docker imagees
+   66  docker images
+   67  docker --help
+   68  docker --help | grep delete
+   69  docker images
+   70  docker --rm python 
+   71  init 0
+   72  passwd 
+   73  ifconfig 
+   74  docker images
+   75  docker rmi centos
+   76  docker rmi ubuntu
+   77  docker rmi python
+   78  docker images
+   79  clear
+   80  docker run  nginx
+   81  docker ps
+   82  docker ps -a
+   83  docker stop ecstatic_mccarthy
+   84  docker rmi nginx
+   85  docker detach 992e3b7be046
+   86  docker stop e919f837892c
+   87  docker rm e919f837892c
+   88  docker rmi e919f837892c
+   89  docker ps -a
+   90  docker images
+   91  docker rmi nginx
+   92  docker search asp.net
+   93  doccker search webserver
+   94  docker search webserver
+   95  docker pull opsway/webserver
+   96  docker pull nazarpc/webserver
+   97  docker pull versantus/webserver-drupal
+   98  docker search server
+   99  docker pull httpd
+  100  docker images
+  101  docker run httpd
+  102  docker run -it httpd
+  103  docker ps -a
+  104  docker stop f6601f40d7a4
+  105  docker stop d7ec5edd994d
+  106  docker rm f6601f40d7a4
+  107  docker rm d7ec5edd994d
+  108  docker rmi d7ec5edd994d
+  109  docker rmi f6601f40d7a4
+  110  docker images
+  111  docker rmi httpd
+  112  history 
+  113  docker search yum
+  114  yum pull dustise/yum.centos7
+  115  docker pull dustise/yum.centos7
+  116  docker images
+  117  docker run dustise/yum.centos7
+  118  docker run dfcd8af5fd11
+  119  docker ps -a
+  120  docker stop 25d9017be963
+  121  docker stop 8332dedc7afe
+  122  docker rm charming_feistel
+  123  docker images
+  124  docker rmi dustise/yum.centos7
+  125  docker rmi dfcd8af5fd11
+  126  docker stop dfcd8af5fd11
+  127  docker rm dfcd8af5fd11
+  128  docker rmi dustise/yum.centos7
+  129  docker images info
+  130  docker images 
+  131  docker rmi dustise/yum.centos7 --force
+  132  docker images 
+  133  docker search ubuntu
+  134  docker pull ubuntu
+  135  docker run ubuntu
+  136  docker exec ubuntu yum install httpd
+  137  docker images 
+  138  docker exec 9140108b62dc yum install httpd
+  139  docker ps -a
+  140  docker exec keen_cohen yum install httpd
+  141  docker run ubuntu
+  142  docker run -it ubuntu 
+  143  docker exec keen_cohen cat /etc/passwd
+  144  docker exec keen_cohen cat /etc/hosts
+  145  docker run ubuntu
+  146  docker ps -a
+  147  docker exec kind_banach cat /etc/hosts
+  148  docker ps -a
+  149  docker stop vibrant_bell
+  150  docker stop kind_banach
+  151  docker stop lucid_newton
+  152  docker stop keen_cohen
+  153  docker stop nostalgic_booth
+  154  docker rm nostalgic_booth
+  155  docker rm keen_cohen
+  156  docker ps -a
+  157  docker rm vibrant_bell 
+  158  docker rm kind_banach 
+  159  docker rm lucid_newton 
+  160  docker rmi ubuntu
+  161  docker images 
+  162  yum install  git
+  163  history >> history_09_10_2020.txt
+  164  git add history_09_10_2020.txt
+  165  git help
+  166  git add history_09_10_2020.txt
+  167  git init
+  168  git add history_09_10_2020.txt
+  169  git commit -m "This is VB Docker Log history"
+  170  git remote add origin https://github.com/chandan26/AWSDoCKER.git
+  171  git push origin master
+  172  git push -u origin master
+  173  git remote add origin https://github.com/chandan26/DockerTutsLog.git
+  174  git remote set-url origin https://github.com/chandan26/DockerTutsLog.git
+  175  git push -u origin master
+  176  git remote set-url origin git@github.com:chandan26/DockerTutsLog.git
+  177  git push -u origin master
+  178  git remote set-url origin https://github.com/chandan26/DockerTutsLog.git
+  179  git push -u origin master
+  180  git init
+  181  git commit -m "CENTDOCK commit"
+  182  git branch -M main
+  183  git remote add origin https://github.com/chandan26/DockerTutsLog.git
+  184  git branch -M main
+  185  git push -u origin main
+  186  ls
+  187  cp history_09_10_2020.txt Desktop/
+  188  cd Desktop/
+  189  ls
+  190  exit
+  191  docker images
+  192  git init
+  193  git add history_09_10_2020.txt
+  194  git commit -m "Docker Commit"
+  195  git remote add origin https://github.com/chandan26/DockerTutsLog.git
+  196  git push -u origin main
+  197  git push -u origin DockerTutsLog
+  198  git pull origin master
+  199  git push -f origin master
+  200  git branch -mv origin master
+  201  git remote add https://github.com/chandan26/dockerlog.git
+  202  git remote add origin  https://github.com/chandan26/dockerlog.git
+  203  git config --global user.name "Chandan"
+  204  git config --global user.email "you@example.com"
+  205  git config --global user.email "chandan.1308024@gmail.com"
+  206  git config --list
+  207  git push -f origin master
+  208  git remote set-url origin https://github.com/chandan26/dockerlog.git
+  209  git remote -v
+  210  ls
+  211  cd /
+  212  ls
+  213  git init
+  214  ls /.git/
+  215  ls
+  216  cd /.git/branches/
+  217  ls
+  218  cd
+  219  mkdir dockerhistorylog
+  220  cd dockerhistorylog/
+  221  git init 
+  222  git status 
+  223  git log
+  224  history >> /root/dockerhistorylog/09_10_2020.txt
